@@ -1,0 +1,544 @@
+ /* Basic change */
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Navbar section */
+ 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+
+    
+    padding: 40px;
+    align-items: center;
+}
+
+.main-logo a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.menu-items ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin-left: -20%;
+}
+
+.menu-items ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+   
+}
+
+
+
+
+    /* hero designe */
+
+    .mainhero{
+    background-image: url('../img/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 65px auto;
+       
+    }
+    .hero-menu{
+        flex: 1;
+        width: 600px;
+        margin: 0px 25px;
+       margin-left: 5%;
+    }
+    .hero-menu h3{
+        color: #3A4256;
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .hero-menu p{
+        font-size: 16px;
+        line-height: 21.79px;
+        margin-bottom: 40px;
+        color: #666;
+        
+    }
+
+   
+    .hero-menu button{
+        background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+        color: #fff;
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, 1);
+       
+    }
+    
+    .hero-image{
+       margin-right: 15px;
+    }
+    img{
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+        margin-left: 35%;
+       
+    }
+
+        /* Card section */
+
+        .card-menu{
+            display: flex;
+            gap: 10px;
+            margin-left: 5%;
+            margin-top: 30px;
+        }
+        
+    .card{
+        font-family: 
+        Open Sans;
+        display: flex;
+       border: 1px solid ;
+        padding: 60px;  
+        border-radius: 10px;
+       color: rgba(255, 255, 255, 1);
+       background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+    }
+
+    .card-b{
+        font-family: 
+        Open Sans;
+        display: flex;
+       border: 1px solid ;
+        padding: 40px;   
+        border-radius: 10px;
+       color: rgba(255, 255, 255, 1);
+       background: rgba(58, 66, 86, 1);
+      
+
+    }
+
+    
+    .card-imgb{
+        width: 100px;
+        height: 100px;
+       margin-left: -8%;  
+     }
+
+
+    
+    .card-img{
+        width: 70px;
+        height: 70px;
+        margin-left: -10%;
+         border-radius: 50%;
+         border: 8px solid #ffffff;
+        
+        
+     }
+
+     
+    .card-c{
+        font-family: 
+        Open Sans;
+        display: flex;
+       border: 1px solid ;
+        padding: 40px; 
+        padding-left: 10%;
+        border-radius: 10px;
+        color: rgba(255, 255, 255, 1);
+        background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+      
+
+    }
+
+    
+    .card-imgc{
+        width: 100px;
+        height: 100px;
+       margin-left: -8%;  
+     }
+     .card-heroc{
+       
+     }
+
+
+     
+    .card-hero h4{
+        font-size: 20px;
+       
+    }
+
+    .card-hero p{
+        font-size: 16px;
+      
+        margin-top: 20px;
+    }
+    
+    
+
+
+
+
+       /* Gallery section */
+
+       
+.gallery-title h6{
+    text-align: center;
+     font-size: 20px;
+     margin-top: 10%;
+     color: rgba(25, 211, 174, 1);
+
+ }
+ .gallery-title h5{
+    text-align: center;
+     font-size: 36px;
+     color: rgba(58, 66, 86, 1);
+
+ }
+ 
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-sub{
+   
+    border: 1px solid  rgba(255, 255, 255, 1);
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    padding: 35px;
+    background:  rgba(255, 255, 255, 1);
+    border-radius: 18px;
+    height: 310px;
+    width: 440px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.gallery-img{
+    width: 150px;
+   height: 150px;
+    cursor: pointer;
+    margin-left: 100px;
+   
+}
+
+ .gallery-item h6{
+    font-size: 20px;
+    color: rgba(58, 66, 86, 1);
+    
+ } 
+
+
+ /* Main design */
+
+ .main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 65px auto;
+   
+}
+
+
+.main-image{
+  
+    width: 200%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 18px;
+   margin-left: -50px;
+ }
+ 
+ .main-menu{
+   margin-left: -50px;
+}
+ 
+
+.main-menu h3{
+    color: #3A4256;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.main-menu p{
+    font-size: 16px;
+    color: #666;
+    
+}
+
+
+.main-menu button{
+    background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+   margin-top: 15px;
+  border: 1px solid rgba(255, 255, 255, 1);
+
+}
+
+
+
+    /*  Appointment design */
+
+    .appointment{
+        display: flex;
+        background-image: url('../img/bg-blue\ 1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        margin-top: 20%;
+    }
+
+    .app-img{
+       width: 500%;
+       height: auto;
+       margin-left: -20%;
+       margin-top: -10%; 
+    }
+
+    .app-main{
+       margin-top: 100px;
+       margin-right: 20%;
+    }
+
+
+    .app-main h6{
+        font-size: 20px;
+        color: rgba(25, 211, 174, 1);
+
+    }
+
+    .app-main h4{
+        font-size: 36px;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 10px;
+
+    }
+
+    .app-main p{
+        font-size: 16px;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 10px;
+
+    }
+
+    
+.app-main button{
+    background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+   margin-top: 15px;
+  border: 1px solid ;
+
+}
+
+
+    /* Testimonial */
+
+    .tes-main{
+        display: flex;
+        margin-top: 10%;
+        margin-left: 30px;
+    }
+
+    .tes-tem{
+       margin-left: 30px;
+
+    }
+
+    .tes-tem h6{
+        font-size: 20px;
+        color: rgba(25, 211, 174, 1);
+
+    }
+
+    .tes-tem h5{
+        font-size: 30px;
+        color: rgba(58, 66, 86, 1);
+        
+    }
+
+    .tes-imggg{
+        margin-left: 70%;
+        margin-top: -3%;
+    }
+
+    .tes-container{
+        display: flex;
+        margin-top: 10%;
+    }
+
+    .box{
+        border: 1px solid  rgba(255, 255, 255, 1);
+        box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+        padding: 35px;
+        background:  rgba(255, 255, 255, 1);
+        border-radius: 18px;
+        height: 310px;
+        width: 440px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .tes-title{
+        display: flex;
+        margin-top: 30px;
+        font-family: Open Sans;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 41.29px;
+        text-align: left;
+    }
+
+    .tes-img{
+        width: 150px;
+        height: 75px;
+       margin-left: -10px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+
+    .tes-sub h5{
+        color: rgba(58, 66, 86, 1);
+        font-size: 20px;
+
+    }
+
+    .tes-sub h6{
+        color: rgba(58, 66, 86, 1);
+        font-size: 16px;
+        margin-top: -13px;
+
+    }
+
+    /*  Contact us design */
+
+        .con-main{
+            background-image: url('../img/bg-blue\ 1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            margin-top: 20%;
+        }
+
+        .contak{
+            text-align: center;
+            margin-top: 10%;
+            font-size: 20px;
+        }
+        .contak h3{
+            color: rgba(25, 211, 174, 1);
+
+        }
+
+       
+
+
+
+
+        /* Footer design */
+
+        .service{
+            display: flex;
+            gap: 20px;
+            background-image: url('../img/footer-bg\ 1\ 1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 10%;
+        }
+
+        .ser1{
+            margin-left: 98px;  
+        }
+
+        .ser1 h2{
+            color:  rgba(147, 147, 147, 1);
+            font-size: 18px;
+            
+        }
+        .ser1 p{
+            color: rgba(58, 66, 86, 1);
+            margin-top: 10px;
+            
+        }
+
+        .ser2{
+           text-align: center;
+           margin-left: 30%;
+        }
+
+         .ser2 h2{
+            color:  rgba(147, 147, 147, 1);
+            font-size: 18px;
+            
+        }
+       .ser2 p{
+            color: rgba(58, 66, 86, 1);
+            margin-top: 10px;
+            
+            
+        }
+
+        .ser3{
+            text-align: center;
+            margin-left: 20%;
+         }
+ 
+        .ser3 h2{
+             color:  rgba(147, 147, 147, 1);
+             font-size: 18px;
+             
+         }
+         .ser3 p{
+             color: rgba(58, 66, 86, 1);
+             margin-top: 10px;
+             
+         }
+
+          .copy{
+            text-align: center;
+            font-size: 16px;
+            margin-top: 30px;
+            color: rgba(0, 0, 0, 1);
+
+         }
+
+        
+
+
+
+
+   
+    
+    
+    
